@@ -1,10 +1,10 @@
 #include<iostream>
 using namespace std;
 int main(){
-    int n=5,b=n,fact=1;
-    while(n>0){
-        fact=fact*n;
-        n--;
+    int num=5,b=num,fact=1;
+    while(num>0){
+        fact=fact*num;
+        num--;
     }
     cout<<"Factorial of "<<b<<" is "<<fact;
     return 0;
